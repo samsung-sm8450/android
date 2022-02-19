@@ -88,6 +88,8 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8450/Android.mk" />
     <!--<linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />-->
     <!--<linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />-->
     <!--<linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />-->
@@ -129,6 +131,9 @@
   <project path="hardware/qcom-caf/sm8350/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.0-caf-sm8350" />
   <project path="hardware/qcom-caf/sm8350/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.0-caf-sm8350" />
   <project path="hardware/qcom-caf/sm8350/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.0-caf-sm8350" />
+  <!-- <project path="hardware/qcom-caf/sm8450/audio" name="samsung-sm8450/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.0-caf-sm8450" /> -->
+  <project path="hardware/qcom-caf/sm8450/display" name="samsung-sm8450/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.0-caf-sm8450" />
+  <!-- <project path="hardware/qcom-caf/sm8450/media" name="samsung-sm8450/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.0-caf-sm8450" /> -->
   <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,pdk-qcom" />
   <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,pdk-qcom" />
   <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="lineage-19.0-caf" />
